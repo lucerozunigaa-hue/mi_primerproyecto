@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-
+df = pd.read_excel('YARDAS_PASOS_DATOS_TICS.xlsx', index_col=0)
 df = pd.read_excel('YARDAS_PASOS_DATOS_TICS.xlsx', index_col=0)
 st.title("Este es un analisis estadístico")
 st.header("Base de datos de Yardas vs. Pases")
